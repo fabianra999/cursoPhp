@@ -21,6 +21,8 @@
     </div>
 
     <?php
+
+    // Var
         $numero1 = 55;
         $numero2 = 33;
         $ano = 2018;
@@ -48,8 +50,6 @@
         echo 'Edad * = 5: '.($edad *= 5).'</br>'; // $edad = $edad * 5;
         echo 'Edad / = 5: '.($edad /= 5).'</br>'; // $edad = $edad / 5;
      
-     
-
     ?>
 
     <!-- Optional JavaScript -->
