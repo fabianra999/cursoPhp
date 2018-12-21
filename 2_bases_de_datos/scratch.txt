@@ -1,0 +1,12 @@
+Terminal
+    Ver bases de datos locales: $ show databases;
+    Crear base de datos: $ create database nombreDeTabla;
+    Elimunar base de datos: $ drop database nombreDeTabla;
+    Usar base de tador: $ use nombreDeTabla;
+    nombre de tablas: $show tables;
+    como esta formada la tabla: $ desc nombreTabla;
+    Eliminar tabla: $ drop table nombreTabla;
+
+
+    Ver contenido de una tabla: $ select * from nombreTabla;
+    ver campos de la tabla: $ DESC nombreTabla;
