@@ -1,8 +1,7 @@
 <?php
-class NotaController
-{
-    public function listar()
-    {
+class NotaController {
+    
+    public function listar() {
         // Modelo
         require_once 'models/nota.php';
         // Logica controlador
@@ -12,9 +11,8 @@ class NotaController
         require_once 'views/nota/listar.php';
     }
 
-    public function crear()
-    {
-// Modelo
+    public function crear() {
+        // Modelo
         require_once 'models/nota.php';
         $nota = new Nota();
 		$nota->setUsuario_id(1);
@@ -25,9 +23,5 @@ class NotaController
 		header("Location: index.php?controller=Nota&action=listar");
     }
 
-    public function borrar()
-    {
-
-    }
 
 }
