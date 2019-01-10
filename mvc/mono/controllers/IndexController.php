@@ -1,28 +1,28 @@
 <?php
-class UsuarioController {
+class IndexController {
 
     public function mostrarTodos() {
         // Modelo
-        require_once 'models/usuario.php';
+        require_once 'models/index.php';
         // Logica controlador
         $usuario = new Usuario();
         $usuarios = $usuario->conseguirTodos('usuarios');
         // Vista
-        require_once 'views/usuarios/mostrar-todos.php';
+        require_once 'views/index/mostrar-todos.php';
     }
 
     public function crear() {
         // Modelo
-        require_once 'models/usuario.php';
+        require_once 'models/index.php';
         // Vista
-        require_once 'views/usuarios/crear.php';
+        require_once 'views/index/crear.php';
 
          //echo $usuario->db->error;
         //die();
         //print_R($_POST);
         if (!empty($_POST)) {
             if (isset($_POST['nombre'])) {
-                require_once 'models/usuario.php';
+                require_once 'models/index.php';
                 $usuario = new Usuario;
                 $usuario->setNombre($_POST['nombre']);
                 $usuario->setApellidos($_POST['apellidos']);

@@ -38,7 +38,6 @@ require_once 'ModeloBase.php';
 
 
 
-
 	public function guardar() {
 		$sql = "INSERT INTO usuarios (nombre, apellidos, email, password, fecha) VALUES ('{$this->nombre}', '{$this->apellidos}', '{$this->email}', '{$this->password}', CURDATE());";
 
@@ -46,7 +45,5 @@ require_once 'ModeloBase.php';
 
 		return $guardado;
 	}
-
-
 
 }
