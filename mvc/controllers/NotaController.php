@@ -17,11 +17,12 @@ class NotaController
 // Modelo
         require_once 'models/nota.php';
         $nota = new Nota();
-        $nota->setUsuario_id(1);
-        $nota->setTitulo("Nota desde php");
-        $nota->setDescripcion("Descripcion desde php");
-        $guardar =$nota->guardar();
-        header("Location: index.php?controller=Nota&action=listar");
+		$nota->setUsuario_id(1);
+		$nota->setTitulo("Nota desde PHP MVC");
+		$nota->setDescripcion("Descricion de mi nota");
+		$guardar = $nota->guardar();
+		
+		header("Location: index.php?controller=Nota&action=listar");
     }
 
     public function borrar()

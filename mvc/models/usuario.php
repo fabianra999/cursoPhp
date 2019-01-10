@@ -40,5 +40,18 @@ class Usuario extends ModeloBase{
     }
     
 
+		public function guardar(){
+			$sql = "INSERT INTO usuarios(nombre, apellidos, email, password, fecha) VALUES ('
+			"$_POST["nombre"]."','
+			".$_POST["apellidos"]."','
+			".$_POST["email"]."','
+			".$_POST["password"]."','
+			".CURDATE()."';'
+			');
+		
+			$guardado = $this->db->query($sql);
+			
+			return $guardado;
+		}
 
 }
