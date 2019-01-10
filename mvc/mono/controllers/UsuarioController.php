@@ -1,9 +1,7 @@
 <?php
-class UsuarioController
-{
+class UsuarioController {
 
-    public function mostrarTodos()
-    {
+    public function mostrarTodos() {
         // Modelo
         require_once 'models/usuario.php';
         // Logica controlador
@@ -12,8 +10,6 @@ class UsuarioController
         // Vista
         require_once 'views/usuarios/mostrar-todos.php';
     }
-
-
 
     public function crear() {
         // Modelo
@@ -52,9 +48,6 @@ class UsuarioController
             }
         }
     }
-
-
-
 
     public function posttest()
     {

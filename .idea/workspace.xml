@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4d7d6b-5d0f-484a-aa5a-1e167b6d7bc9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controllers/NotaController.php" afterPath="$PROJECT_DIR$/mvc/controllers/NotaController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controllers/UsuarioController.php" afterPath="$PROJECT_DIR$/mvc/controllers/UsuarioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/index.php" afterPath="$PROJECT_DIR$/mvc/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/models/usuario.php" afterPath="$PROJECT_DIR$/mvc/models/usuario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/views/usuarios/crear.php" afterPath="$PROJECT_DIR$/mvc/views/usuarios/crear.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -432,7 +427,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

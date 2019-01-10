@@ -21,3 +21,8 @@ fecha           date not null,
 CONSTRAINT pk_entradas PRIMARY KEY(id),
 CONSTRAINT fk_entrada_usuario FOREIGN KEY(usuario_id) REFERENCES usuarios(id)
 )ENGINE=InnoDb;
+
+
+
+INSERT INTO `notas_master`.`usuarios` (`nombre`, `apellidos`, `email`, `password`, `fecha`) VALUES ('singular', 'singulkar', 'singular@gmail.com', '123456789', '2017-02-28');
+INSERT INTO `notas_master`.`notas` (`usuario_id`, `titulo`, `descripcion`, `fecha`) VALUES ('3', 'nota1', 'nota nota', '2019-01-10');
